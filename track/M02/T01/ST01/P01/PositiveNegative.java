@@ -11,5 +11,7 @@ public class PositiveNegative {
         } else {
             System.out.println("The number is zero.");
         }
+
+        sc.close();
     }
 }
