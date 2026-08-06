@@ -1,0 +1,14 @@
+public class NestedLoop3 {
+	public static void main(String[] args) {
+		int i=1;
+		do {
+			int j=1;
+			do {
+				System.out.println(j);
+				j++;
+			} while (j<6);
+			System.out.println();
+			i++;
+		} while (i<6);
+	}
+}
